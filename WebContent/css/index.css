@@ -1,0 +1,148 @@
+body {
+   
+   background-image: url("human-machine-hand-homepage-flipped.svg");
+   
+    background-position-y: -15%;
+   background-repeat:no-repeat;
+ 
+  /* Background-size : 110%;*/
+  background-size: cover;
+   
+   
+}
+.HRC-logo
+{
+	left: 0;
+    top: 0;
+     
+   
+    margin-top:2%;
+    margin-left:2%;
+}
+#hrclogo
+{
+    width: 12%;
+}
+.SignIn{
+    font-size: x-large;
+}
+div.login{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    padding-right: 25%;
+    
+    font-size: xx-large;
+    color: grey;
+}
+
+#order-managment{
+    position: absolute;
+    left: 0;
+    width: 37%;
+    bottom: 30%;
+    background-color: rgb(113, 214, 113);
+    color: white;
+    font-size: x-large;
+    font-weight: lighter;
+    
+    
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    padding-left: 2%;
+    padding-right: 0%;
+    border-radius: 0px 10px 10px 0px;
+}
+.textbox
+{
+  
+    width: 200%;
+    height: 400%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 80px opx;
+    margin: 10px 0;
+    border-bottom: 1px solid #cf8a4a;
+}
+.textbox input
+{
+    border: none;
+    outline: none;
+    background: rgb(227, 227, 247);
+    color: black;
+    width: 100%;
+    
+   /* margin: 1 1 1 1;*/
+}
+.textbox label
+{
+    left: 0;
+}
+.btn
+{
+  
+  margin-left: 128%;
+  width:70% ;
+
+  
+  background: rgba(175, 172, 172, 0.678);
+  border-radius: 5px 5px 5px 5px;
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+  border:none;
+  padding: 3%;  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal-Edit {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  margin-left:10%;
+  width: 80%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /*background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-edit {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
