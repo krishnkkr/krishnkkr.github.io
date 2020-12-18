@@ -1,0 +1,368 @@
+#abc-logo
+{
+    margin-left: 25%;
+    top: 0px;
+    width: 15%;
+    height: 10%;
+    padding-left: 0;
+    margin-bottom:1%;
+}
+#hrc-logo
+{
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 10%;
+    margin-bottom:1%;
+    margin-left:0.5%;
+}
+.logo
+{
+	margin-bottom:1%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 98%;
+    /*border: 1px solid rgb(83, 161, 194);*/
+    margin-left: 1%;
+    margin-right: 1%;
+    border-left: none;
+    border-right: none;
+    border-bottom:none;
+    border-radius: 10px;
+    /*border-top-color: #FC7500;*/
+    border-width: 2px;
+    font-size:small;
+    
+  }
+  table  th { border-bottom: 2px solid #FC7500; }
+  th, td {
+    text-align: left;
+    padding: 10px;
+    font-size:small;
+  }
+  th
+  {
+  	 border-bottom-color: #FC7500;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #E6F7F9;
+  }
+ .edit-button , .add-button
+{
+  width: 10%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 5px,5px,5px,5px;
+  color: white;
+  background-color: #FC7500;
+  border-radius:2px,2px,2px,2px;
+  border:none;
+  margin-top: 10px;
+  height: 30px;
+  font-size: large;
+}
+.search input[type=text]{ 
+  widows: 200px;; 
+  height:25px; 
+  
+  border: none; 
+  top: 0px;
+  background-color: #dbf1f5;
+} 
+    
+.search{ 
+  float:right; 
+  margin:7px; 
+  margin-top:1.5%
+  
+   background-color: #E6F7F9; 
+  /* color: #aee6ee; */
+} 
+.grid
+{
+  border-width: 7px;
+  border-color: rgba(131, 126, 126, 0.596);
+  border-style: solid;
+  
+}
+ .aApprove-button, .rReject-button
+{
+  width: 10%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px,5px,5px,5px;
+  color: white;
+  background-color: #FC7500;
+  border:none;
+  margin-top: 10px;
+  height: 30px;
+  font-size: large;
+
+}
+.Pagination
+{
+
+  margin-top: .5%;
+  margin-left: 1%;
+  margin-bottom: .5%;
+  border:none;
+  
+  
+} 
+.page-start, .page-prev, .page-of, .page-next, .page-skip , .page-of, .total-page
+{
+  
+  background-color: #E6F7F9;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border:none
+  
+}
+.page-next
+{
+  margin-left: 0%;
+  border:none;
+  
+}
+.total-page
+{
+  border: unset;
+  background-color: white;
+}
+.modal ,.modal-Edit  {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  margin-left: 15%;
+  top: 0;
+  width: 70%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* background-color: rgb(0,0,0); Fallback color */
+  /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content,.modal-content-edit {
+   background-color: #fefefe;
+  margin: auto;
+  /* padding: 20px; */
+  padding-left: 0%;
+  padding-top: 0%;
+  border: 1px solid #888;
+  width: 80%;
+  top: 0%;
+  padding-bottom: 2%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.textbox
+{
+  
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 80px opx;
+    margin: 10px 0;
+    
+}
+.textbox input
+{
+    /* border: none; */
+     border: none;
+    outline: none;
+    /* background: rgb(227, 227, 247); */
+    /* color: black; */
+    /* width: 100%; */
+    
+   /* margin: 1 1 1 1;*/
+   border-color: black;
+   border-bottom: 1px solid grey;
+   
+   margin-left: 10%;
+   float: left;
+   width: 50%;
+}
+label {
+  /* Other styling... */
+  text-align: right;
+  clear: both;
+  float:left;
+  margin-left: 10%;
+}
+.ADD-BUTTON
+{
+  margin-left: 40%;
+}
+
+
+
+
+.modal-Edit NOT {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-edit NOT{
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close1 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.approve-reject-form,.search {
+  display: inline-block; 
+  /* display: inline;  */
+}
+.Approve-button
+{
+  width: 100%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px,5px,5px,5px;
+  color: white;
+  background-color: #FC7500;
+  border:none;
+  margin-top: 10px;
+  height: 30px;
+  font-size: large;
+
+}
+.Reject-button
+{
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 5px,5px,5px,5px;
+  color: white;
+  background-color: #FC7500;
+  border:none;
+  margin-top: 10px;
+  height: 30px;
+  font-size: large;
+
+}
+
+.add-head
+{
+  top: 0%;
+  color: #000;
+ 
+  margin-top: 0%;
+  border: orange;
+  top: 0%;
+  font-size: 25px;
+  width: 30%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom:0%;
+  padding-right: 0%;
+  
+}
+
+#order_id
+{
+  margin-left: 25%;
+}
+#order_date
+{
+  margin-left: 21%;
+}
+#company_Name
+{
+  margin-left: 14%;
+}
+#Company_Number
+{
+  margin-left: 18%;
+}
+#Order_Amount
+{
+  margin-left: 15.5%;
+}
+#Notes
+{
+  margin-left: 28%;
+}
+.ADD-BUTTON
+{
+  margin-left: 40%;
+  
+  color: white;
+  background-color:#FC7500;
+  
+  width: 10%;
+  height: 20%;
+  padding-top:1%;
+  padding-bottom:1%;
+  border-radius: 5px;
+  margin-top: 3%;
+  border:none;
+}
+#order_id-Edit
+{
+	margin-left:21.5%;
+}
+#Order_Amount-Edit
+{
+	margin-left:13%;
+}
+#Notes-Edit
+{
+	margin-left:25%;
+}
+#Approved-By-Edit
+{
+	margin-left:14%;
+}
